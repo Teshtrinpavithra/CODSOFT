@@ -40,7 +40,7 @@ except Exception as e:
 if data is not None:  # Check if data was loaded successfully
   data.head()
 
-data = pd.read_csv(io.BytesIO(uploaded['train (1).csv']))
+data = pd.read_csv(io.BytesIO(uploaded['train.csv']))
 
 data.columns
 
